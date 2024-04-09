@@ -18,7 +18,7 @@ import Verification from "../pages/Verification.jsx";
       element: <CreateProfile/>,
     },
   {
-    path: "/selectoptions",
+    path: "/selectOptions",
     element: <Slide3/>,
   },
   {
