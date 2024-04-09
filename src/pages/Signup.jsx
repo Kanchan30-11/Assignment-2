@@ -21,7 +21,7 @@ const handleSubmit =()=>{
            <h5 className=''>Already a member?</h5> 
            <a className='text-blue-700 ' href='/'>Sign In</a>
         </div>
-        <form className='md:pt-20 lg:mx-72   w-full  p-4 text-center lg:w-96 ' >
+        <form className='md:pt-16 lg:mx-72   w-full  p-4  md:text-start text-center lg:w-96 ' >
            <h1 className='font-extrabold text-xl lg:text-3xl'>Sign up to Dribble</h1> 
            <div className='space-y-8 sm:px-36 md:px-2'>
            <div className='flex space-x-4 pt-6  lg:pt-20'>

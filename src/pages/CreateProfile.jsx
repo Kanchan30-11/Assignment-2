@@ -8,7 +8,7 @@ const handleNext=()=>{
 }
 
   return (
-    <div className=' py-8 lg:py-24 px-4  overflow-x-hidden flex items-center justify-center'>
+    <div className=' overflow-y-hidden py-8 lg:py-24 px-4   flex items-center justify-center'>
       <div className=' '>
         <h1 className='font-bold lg:text-4xl text-2xl text-center '>Welcome! Let's create your profile</h1>
         <p className='text-gray-500 lg:font-normal text-sm lg:text-base pt-4 '>Let others get to know you better! You can do these later</p>
