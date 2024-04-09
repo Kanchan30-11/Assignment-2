@@ -1,11 +1,13 @@
 import React from 'react'
 import { MdCameraEnhance } from "react-icons/md";
 import { FaChevronRight } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
 const CreateProfile = () => {
+  const navigate = useNavigate();
 const handleNext=()=>{
-  window.location.href="/selectOptions";
+   navigate('/selectOptions');
 }
+
 
   return (
     <div className=' overflow-y-hidden py-8 lg:py-24 px-4   flex items-center justify-center'>

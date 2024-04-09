@@ -2,7 +2,6 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-  import App from '../App.jsx'
 import Signup from "../pages/Signup.jsx";
 import CreateProfile from "../pages/CreateProfile.jsx";
 import Slide3 from "../pages/Slide3.jsx";

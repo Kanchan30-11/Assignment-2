@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { FaChevronLeft } from "react-icons/fa";
 import CardData from "../Data/CardData";
 import {useMediaQuery} from 'react-responsive';
+import { useNavigate } from "react-router-dom";
+
+
+
 const Slide3 = () => {
+  const navigate = useNavigate();
   
   const isLargeScreen = useMediaQuery({ minWidth: 1024 });
   const [checkedItems, setCheckedItems] = useState({});
@@ -15,12 +20,10 @@ const Slide3 = () => {
   };
 
   const handleback=()=>{
-    window.location.reload();
-   window.location.href="/createProfile";  
+    navigate('/createProfile')  
   }
   const handleFinish=()=>{
-    window.location.reload();
-   window.location.href="/verification";
+    navigate('/verification')  
   }
 
   return (
